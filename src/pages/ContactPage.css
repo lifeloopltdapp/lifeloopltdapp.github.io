@@ -80,9 +80,14 @@
 }
 
 .success-message {
-  composes: message-base; /* Or copy base styles if compose isn't supported/used */
-  background-color: #28a745; /* Green background for success */
-  color: #ffffff;
+  /* Remove or override existing background properties */
+  background-color: transparent;
+  /* Set text color to green */
+  color: green;
+  /* Keep or add other desired styles like padding, margin, etc. */
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
 }
 
 .error-message {
