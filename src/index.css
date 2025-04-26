@@ -1,8 +1,10 @@
 body {
+  background-color: #1a1a1a; /* Dark background */
+  color: #f0f0f0;           /* Light text */
+  font-family: sans-serif;   /* Ensure consistent font */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 20px; /* Add some padding */
+  min-height: 100vh; /* Ensure background covers full height */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +13,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Adjust link colors for dark background */
+a {
+  color: #90caf9; /* Light blue for links */
+}
+
+a:hover {
+  color: #e3f2fd; /* Lighter blue on hover */
+}
+
+/* Adjust heading colors */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White for headings */
+}
+
+/* If you have a main App container, you might adjust its styles too */
+/* For example: */
+/* .App { */
+/*   max-width: 800px; */
+/*   margin: 0 auto; */
+/* } */
+
+/* You might need to adjust other element styles (buttons, inputs, etc.) */
+/* depending on your specific components */

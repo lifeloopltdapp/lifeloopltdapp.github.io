@@ -1,0 +1,35 @@
+.navbar {
+  padding: 15px 30px;
+  background-color: #212529; /* Dark background */
+  border-bottom: 1px solid #495057; /* Slightly lighter border */
+  display: flex;
+  justify-content: center; /* Center links horizontally */
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px; /* Spacing between links */
+  align-items: center; /* Vertically align items */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline */
+  color: #c6d6e7; /* Link color */
+  padding: 8px 12px; /* Add some padding */
+  border-radius: 4px; /* Slightly rounded corners */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth transition for hover */
+  display: inline-block; /* Ensure padding and hover area are correct */
+}
+
+.nav-link:hover {
+  background-color: #151616; /* Light background on hover */
+  color: #bed1e6; /* Darker link color on hover */
+}
+
+.nav-link:active {
+  transform: translateY(0); /* Press down effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow when active */
+}
