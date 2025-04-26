@@ -37,10 +37,11 @@ class ContactPage extends Component {
       "message": this.state.message
     }
 
-    fetch('https://us-central1-cryptic-smile-425910-d6.cloudfunctions.net/send_support_email', {
+    fetch('https://formspree.io/f/xyzwzerw', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
       },
       body: JSON.stringify(body)
     })

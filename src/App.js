@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// Import HashRouter instead of BrowserRouter
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProductPage from './pages/ProductPage';
 import ContactPage from './pages/ContactPage';
@@ -7,6 +8,7 @@ import './App.css'; // Import basic styles
 
 function App() {
   return (
+    // Use Router (which is now HashRouter)
     <Router>
       <div className="App">
         <Navbar />
