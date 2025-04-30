@@ -16,7 +16,7 @@ function ProductPage() {
       <div style={{ margin: '20px 0', textAlign: 'center' }}> {/* Centered the badge container */}
         {/* TODO: Replace with actual App Store link once app is published */}
         <a
-          href="https://www.apple.com/app-store/" // Placeholder link
+          href="https://apps.apple.com/app/id6744413317"
           target="_blank"
           rel="noopener noreferrer"
           style={{ display: 'inline-block' }} // Helps with alignment and potential future styling
