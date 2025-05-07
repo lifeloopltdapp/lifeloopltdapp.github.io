@@ -63,6 +63,16 @@ function ProductPage() {
          </a>
        </div>
        */}
+
+      {/* Privacy and Terms Links */}
+      <div style={{ marginTop: '30px', textAlign: 'center', fontSize: '0.9em' }}>
+        <a href="/privacy.html" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
+          Privacy Policy
+        </a>
+        <a href="/terms.html" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
+          Terms of Service
+        </a>
+      </div>
     </div>
   );
 }
