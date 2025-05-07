@@ -9,7 +9,7 @@ import appStoreBadge from '../assets/download-on-app-store.png'; // Import App S
 function ProductPage() {
   return (
     <div>
-      <h1>Lifeloop ltd.</h1>
+      <h1>Lifeloop Ltd.</h1>
       <p>Click, work, invest, repeat—live a new life in this fun sim roguelike!</p>
 
       {/* Moved App Store Link */}
