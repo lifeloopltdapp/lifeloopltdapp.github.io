@@ -55,6 +55,28 @@ function ProductPage() {
         />
       </div>
 
+
+      <section style={{ padding: '20px', textAlign: 'center', backgroundColor: '#2a2a2a', borderRadius: '8px', marginBottom: '20px' }}>
+        <section >
+          <h3>Welcome to Lifeloop Ltd.</h3>
+          <p>
+            Lifeloop Ltd. is a fun and engaging simulation roguelike game where you can click, work, invest, and repeat to live a new life. 
+          </p>
+          <p>
+            Whether you're looking to strategize your way to success or simply enjoy a casual gaming experience, Lifeloop Ltd. has something for everyone.
+          </p>
+        </section>
+        <section style={{ paddingTop: '10px' }}>
+          <h3>Why We Need Your Data</h3>
+          <p>
+            To provide a personalized and seamless experience, we may collect data such as your gameplay preferences and progress. 
+          </p>
+          <p>
+            This helps us improve the game and offer features tailored to your needs. Your data is handled securely and responsibly.
+          </p>
+        </section>
+      </section>
+
        {/* Add Google Play link if applicable */}
        {/*
        <div>
@@ -65,7 +87,7 @@ function ProductPage() {
        */}
 
       {/* Privacy and Terms Links */}
-      <div style={{ marginTop: '30px', textAlign: 'center', fontSize: '0.9em' }}>
+      <div style={{ marginTop: '30px', marginBottom: '10px', textAlign: 'center', fontSize: '0.9em' }}>
         <a href="/privacy.html" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
           Privacy Policy
         </a>
