@@ -4,7 +4,8 @@ import productImage1 from '../assets/product_page_1.png';
 import productImage2 from '../assets/product_page_2.png';
 import productImage3 from '../assets/product_page_3.png';
 import productImage4 from '../assets/product_page_4.png';
-import appStoreBadge from '../assets/download-on-app-store.png'; // Import App Store badge
+import appStoreBadge from '../assets/download-on-app-store.png';
+import playStoreBadge from '../assets/download-on-google-play.png';
 
 function ProductPage() {
   return (
@@ -25,6 +26,20 @@ function ProductPage() {
           <img
             src={appStoreBadge}
             alt="Download on the App Store"
+            style={{ height: '50px', width: 'auto' }} // Adjust height as needed
+          />
+        </a>
+        <div style={{ display: 'inline-block', width: '20px' }}></div> {/* Spacer */}
+        <a
+          href="https://play.google.com/store/apps/details?id=com.sync.luximetr.businessclicker"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: 'inline-block' }} // Helps with alignment and potential future styling
+        >
+          {/* Use image instead of text */}
+          <img
+            src={playStoreBadge}
+            alt="Download on the Play Store"
             style={{ height: '50px', width: 'auto' }} // Adjust height as needed
           />
         </a>
